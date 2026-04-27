@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя Читалка</title>
-    <style>
-        :root { --bg: #f5f5f7; --paper: #ffffff; --text: #1d1d1f; --btn: #0071e3; }
-        body.dark { --bg: #000000; --paper: #1c1c1e; --text: #f5f5f7; --btn: #0a84ff; }
-        body { background: var(--bg); margin: 0; display: flex; justify-content: center; transition: 0.3s; font-family: serif; }
-        .paper { max-width: 800px; width: 90%; background: var(--paper); padding: 40px; margin: 80px 0; border-radius: 12px; box-shadow: 0 4px 30px rgba(0,0,0,0.1); font-size: 22px; line-height: 1.8; color: var(--text); white-space: pre-wrap; }
-        #theme-btn { position: fixed; top: 20px; right: 20px; padding: 10px 20px; cursor: pointer; border-radius: 20px; border: none; background: var(--btn); color: white; }
-    </style>
-</head>
-<body id="b">
-    <button id="theme-btn" onclick="document.getElementById('b').classList.toggle('dark')">Сменить режим</button>
-    <div class="paper">Книг пока нет. Отправь файл боту, и текст появится здесь!</div>
-</body>
-</html>
+
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Читалка</title>
+        <style>
+            :root { --bg: #f4f4f7; --paper: #ffffff; --text: #1a1a1a; --btn: #007aff; }
+            body.dark { --bg: #0d0d0d; --paper: #1c1c1e; --text: #e1e1e1; --btn: #0a84ff; }
+            body { background: var(--bg); margin: 0; display: flex; justify-content: center; transition: 0.3s; font-family: 'Georgia', serif; }
+            .paper { max-width: 800px; width: 92%; background: var(--paper); padding: 45px; margin: 60px 0; border-radius: 10px; box-shadow: 0 5px 25px rgba(0,0,0,0.1); font-size: 22px; line-height: 1.7; color: var(--text); white-space: pre-wrap; }
+            #theme-btn { position: fixed; top: 15px; right: 15px; padding: 12px 24px; cursor: pointer; border-radius: 25px; border: none; background: var(--btn); color: white; font-weight: bold; z-index: 100; }
+        </style>
+    </head>
+    <body id="b">
+        <button id="theme-btn" onclick="document.getElementById('b').classList.toggle('dark')">🌙 ТЕМА</button>
+        <div class="paper">dfgdfgfgdfgfgsdffgssgfgsfdfdgbdfgdfgdgfdfggdfdfggdfgdf</div>
+    </body>
+    </html>
+    
